@@ -22,3 +22,11 @@ There are two parts to the code: tictactoe.py and main.py:
 2. main.py- Two-Player Tic-Tac-Toe
    This is a "control" program that simulates the normal human vs human version of the game.
 
+## Deep Neural Networks for Hand-Written Digit Recognition (kminst.py and emnist.py)
+
+It's a mouthful, isn't it?😂 
+This was a project aimed at implementing a deep neural network from scratch in python that can be trained to recognize hand-written digit images. The sigmoid activation function of the neurons were adapted to simulate the scaled hyperbolic tangent function.
+
+To demostrate the program's accuracy, training was done to recognize at least 4 digits from the MNIST dataset with a 90% or more accuracy.
+
+The second part (kminst.py) was an application of loop optimization to improve the execution time of the program. This included manipulation of array access patterns, loop blocking and loop unrolling.
